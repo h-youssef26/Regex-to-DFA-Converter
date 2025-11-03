@@ -12,7 +12,7 @@ ____________________________________________________________________________
 
 Regex to DFA Visualizer
 
-This project provides an interactive tool that converts a Regular Expression (Regex) into a Deterministic Finite Automaton (DFA) and visualizes the transition graph clearly. It helps users understand automata behavior step-by-step by allowing them to convert the regex, view the DFA structure, and test input strings directly on the generated automaton.
+This project provides an interactive tool that converts a Regular Expression (Regex) into a Deterministic Finite Automaton (DFA). It helps users understand automata behavior step-by-step by allowing them to convert the regex, view the DFA structure, and test input strings directly on the generated automaton.
 
 -----------------------------------------------------------------------------
 Features
@@ -23,18 +23,12 @@ Builds NFA using Thompson’s Construction
 
 Converts NFA into DFA using Subset Construction
 
-Graphical DFA visualization using Tkinter Canvas
-
 Simulates user-entered strings and displays acceptance/rejection
-
-Shows states, transitions, and accepting states
 
 -------------------------------------------------------------------------------
 Technologies Used
 
 Python
-
-Tkinter GUI
 
 Collections & math libraries (built-in)
 
@@ -44,5 +38,5 @@ Enter your regex, generate the DFA, then test strings for acceptance or rejectio
 
 -------------------------------------------------------------------------------
 Example Input
-aabb(a|b)
+aabb
 
