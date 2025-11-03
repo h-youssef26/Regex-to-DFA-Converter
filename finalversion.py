@@ -1,7 +1,6 @@
 # demoterminal.py
 # Regex → DFA converter and simulator (terminal version)
 # Supports: |  *  +  and concatenation
-# Includes: friendly messages + emojis 😄
 
 import string
 import time
